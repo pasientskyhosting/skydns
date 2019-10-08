@@ -123,7 +123,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:b6ac959ebc3607dd192d5fcb695686b553ab26be95af1809896600f954b92676"
+  digest = "1:6665fb2652590008cb27f32f942651b2635cae67dd65807838f405a6827643ef"
   name = "github.com/skynetservices/skydns"
   packages = [
     "backends/etcd",
@@ -135,7 +135,7 @@
     "singleflight",
   ]
   pruneopts = "UT"
-  revision = "15f42ac021b1f17a8b329f409539aa1624458da0"
+  revision = "ac8c4513d6f5a5f451253b3b0801ca031b6f95a5"
   source = "github.com/pasientskyhosting/skydns"
 
 [[projects]]
