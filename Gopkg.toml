@@ -38,11 +38,11 @@
 
 [[constraint]]
   name = "github.com/miekg/dns"
-  version = "1.0.4"
+  version = "v1.1.22"
 
-[[constraint]]
+[[override]]
   name = "github.com/prometheus/client_golang"
-  version = "0.8.0"
+  version = "=1.1.0"
 
 [[constraint]]
   branch = "master"
@@ -51,3 +51,8 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/skynetservices/skydns"
+  source = "github.com/pasientskyhosting/skydns"
